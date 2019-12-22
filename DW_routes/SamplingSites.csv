@@ -1,0 +1,16 @@
+samplingRoute,sampleSiteDesignator,address,zipcode,lat,lon,coord,mon,tues,wed,thurs,fri,samplingFreq,waterType,metadata
+North,ALVs,5545 Kiowa Dr,91942,32.780461,-117.040178,32.780461 -117.040178,,,,,,,,
+North,233 SYS,12110 World Trade Dr @ a Fire Station,92128,32.98261,-117.07391,"32.98261, -117.07391",Required,,,,,1,,Carmel Mountain Reservoir; 15 min flush
+North,13 SYS,13564 Calvados @ Shoal Summit,92128,32.965672,-117.077922,32.965672 -117.077922,Required,,,,,1,,Penasquitos Reservoir
+North,316 SYS,13705 Shoal Summit Dr,92128,32.965783,-117.076256,32.965783 -117.076256,Required,,,,,1,,Pormorado Park Reservoir
+North,292 SYS_B1 MID,14799-B Black Mountain Rd,92127,32.985231,-117.127864,32.985231 -117.127864,Required,,,,,1,,Rancho Bernardo Reservoir
+North,292 SYS_B2 MID,14799-B Black Mountain Rd,92127,32.985231,-117.127864,32.985231 -117.127864,Required,,,,,1,,
+North,19 SYS,14800 Penasquitos Blvd access is @ that end of  Avnda Maria,92129,32.985764,-117.093106,32.985764 -117.093106,Required,,,,,1,,
+North,326 SYS,8555 1/2 Run of the Knolls Rd,92128,32.990572,-117.136197,32.990572 -117.136197,Required,,,,,1,,
+North,236 SYS,15022 Avenida Venusto,92128,32.991669,-117.067814,32.991669 -117.067814,Required,,,,,1,,Black Mountain Reservoir; 15 min flush; 14719 Carmel Valley Rd?
+North,313 SYS,11602 Calle Paracho,92128,33.000983,-117.079181,33.000983 -117.079181,Required,,,,,1,,Black Mountain Reservoir; 15 min flush; 14719 Carmel Valley Rd?
+North,20 SYS,16000 Block Avnda Venusto,92128,33.004392,-117.074281,33.004392 -117.074281,Required,,,,,1,,
+North,235 SYS,15855 Turtleback Rd,92127,33.005322,-117.08775,33.005322 -117.08775,Required,,,,,1,,
+North,21 SYS,16055 BloLK Big Springs Way,92127,33.007517,-117.084003,33.007517 -117.084003,Required,,,,,0.03,,Monthly sampling
+North,327 SYS,15625 New Park Terrace,92127,33.019156,-117.145422,33.019156 -117.145422,Required,,,,,1,,
+North,ALVe,5545 Kiowa Dr,91942,32.780461,-117.040178,32.780461 -117.040178,,,,,,,,
