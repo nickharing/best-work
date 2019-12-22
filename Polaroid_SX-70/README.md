@@ -1,0 +1,1 @@
+At the Polaroid company meeting in 1972, Edwin Land stepped onto the stage, pulled a camera out of his jacket pocket, and took five instant photos in just ten seconds. That camera was the Polaroid SX-70, and it was the camera that made truly instant photography possible for the first time ever.
