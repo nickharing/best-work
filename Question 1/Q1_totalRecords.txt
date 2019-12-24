@@ -22,3 +22,5 @@ Results
 
 GMT: Wednesday, December 11, 2019 12:00:00 AM
 GMT: Wednesday, December 11, 2019 12:35:41.341 AM
+
+NOTE: the end timestamp is before 12:59:59. This could be because that is the time of the last record or because I did not get a full response. I reached out to CityIQ support to validate, but didn't recieved a reply before submitting.
