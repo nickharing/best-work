@@ -1,5 +1,5 @@
 # DWroutes
-Optimization of sampling routes for DW Sampling staff
+Optimization of sampling routes for Drinking Water sampling staff
 
 Links:  
 https://www.r-bloggers.com/the-travelling-salesman-portrait/  
