@@ -1,0 +1,24 @@
+Below is the request and metadata response for Question 1 of the assignment. I queried PKIN data for the entire City limits between Wednesday, December 11, 2019 12:00:00 AM (GMT) and Wednesday, December 11, 2019 12:59:59 AM (GMT). The final record was captured at 12:35:41 AM (GMT). Total records for these events = 2751
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Python code taken from a Postman API
+
+import http.client
+import mimetypes
+conn = http.client.HTTPSConnection("sandiego.cityiq.io")
+payload = ''
+headers = {
+  'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImxlZ2FjeS10b2tlbi1rZXkiLCJ0eXAiOiJKV1QifQ.eyJqdGkiOiIxM2Y5ZGMzOWUxNzY0MTI5YTE3NjljZTNmNTRlZDFhYyIsInN1YiI6IlB1YmxpY0FjY2VzcyIsImF1dGhvcml0aWVzIjpbImllLWN1cnJlbnQuU0QtSUUtUEVERVNUUklBTi5JRS1QRURFU1RSSUFOLkxJTUlURUQuREVWRUxPUCIsImllLWN1cnJlbnQuU0QtSUUtUEFSS0lORy5JRS1QQVJLSU5HLkxJTUlURUQuREVWRUxPUCIsInVhYS5yZXNvdXJjZSIsImllLWN1cnJlbnQuU0QtSUUtVFJBRkZJQy5JRS1UUkFGRklDLkxJTUlURUQuREVWRUxPUCIsImllLWN1cnJlbnQuU0QtSUUtRU5WSVJPTk1FTlRBTC5JRS1FTlZJUk9OTUVOVEFMLkxJTUlURUQuREVWRUxPUCJdLCJzY29wZSI6WyJ1YWEucmVzb3VyY2UiLCJpZS1jdXJyZW50LlNELUlFLVRSQUZGSUMuSUUtVFJBRkZJQy5MSU1JVEVELkRFVkVMT1AiLCJpZS1jdXJyZW50LlNELUlFLUVOVklST05NRU5UQUwuSUUtRU5WSVJPTk1FTlRBTC5MSU1JVEVELkRFVkVMT1AiLCJpZS1jdXJyZW50LlNELUlFLVBFREVTVFJJQU4uSUUtUEVERVNUUklBTi5MSU1JVEVELkRFVkVMT1AiLCJpZS1jdXJyZW50LlNELUlFLVBBUktJTkcuSUUtUEFSS0lORy5MSU1JVEVELkRFVkVMT1AiXSwiY2xpZW50X2lkIjoiUHVibGljQWNjZXNzIiwiY2lkIjoiUHVibGljQWNjZXNzIiwiYXpwIjoiUHVibGljQWNjZXNzIiwiZ3JhbnRfdHlwZSI6ImNsaWVudF9jcmVkZW50aWFscyIsInJldl9zaWciOiIyMGYxMGQ0OCIsImlhdCI6MTU3NzE0MzU3MiwiZXhwIjoxNTc3NzQ4MzcyLCJpc3MiOiJodHRwczovL2F1dGguYWEuY2l0eWlxLmlvL29hdXRoL3Rva2VuIiwiemlkIjoidWFhIiwiYXVkIjpbImllLWN1cnJlbnQuU0QtSUUtVFJBRkZJQy5JRS1UUkFGRklDLkxJTUlURUQiLCJpZS1jdXJyZW50LlNELUlFLVBBUktJTkcuSUUtUEFSS0lORy5MSU1JVEVEIiwidWFhIiwiaWUtY3VycmVudC5TRC1JRS1FTlZJUk9OTUVOVEFMLklFLUVOVklST05NRU5UQUwuTElNSVRFRCIsImllLWN1cnJlbnQuU0QtSUUtUEVERVNUUklBTi5JRS1QRURFU1RSSUFOLkxJTUlURUQiLCJQdWJsaWNBY2Nlc3MiXX0.uCUuXxHo_9saA0Tu6ExnEwOoG_shKyxbEpBLfLQStXUDLHzl-py5REUUasVAp5MMUVBClDHyf8a_ovRD-qMxRE4qFNvRLxHOquy4fBGy_vTpJyCbE0V7mQxyW_diUV44EyiNFvxNwuSxecR-4xuSeol_Sn9wyoB0TOs9qXA4iiAOP3GKXCbOFarc1s3VCq-Zi0feBubLqzGakONH61BLoXLTj5SwB_3V4-R_23hyUL2DYR2EKpA4YnOjNjg__42fpM0ENtgFNdrw9c8LZ1A-uGUdLeGiytKp251fpAsILzxTpIl8tRQe-Ke4S1KEmu8N_FZheT8wAawD0a-eaxs1IyftoC8fXD5cZQWer8ear8aO_eNmLgb2h7x81c1xnQNM17IRDO_MtgEy8me5kZtZtQLi9WGUEOoT0bYxeVuXuCQsafm613QzR2GvDTAeToaFquIbH04w5q7Z9XrTSUwmu6TD4U_o28-uhK9XIejhUG_OAu8QH1k6ZgwQQh7_dZE1X7CRFexMUr5v1DLwTkGVVttHZBE8CADxMYLxgBMTji--6U2oR4K4YbcenQkNZ_rCc-6V3_6ronsmAGzcIf2HSRfQaesd6Y4aeBQtItFkgIq5q_kmRZntwGXPLzNy11UJ4fMYzB15UIxqXi8NOQRe5eHdu2xmLGz_y3MpcNUP3wo',
+  'Predix-Zone-Id': 'SD-IE-PARKING'
+}
+conn.request("GET", "/api/v2/event/locations/events?bbox=33.077762:-117.663817,32.559574:-116.584410&locationType=PARKING_ZONE&eventType=PKIN&startTime=1576022400000&endTime=1576025999000&pageSize=50000", payload, headers)
+res = conn.getresponse()
+data = res.read()
+print(data.decode("utf-8"))
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Results
+
+"metaData":{"startTs":"1576022400000","endTs":"1576024541341","request_limit":10000,"totalRecords":2751,"comment":""}}
+
+GMT: Wednesday, December 11, 2019 12:00:00 AM
+GMT: Wednesday, December 11, 2019 12:35:41.341 AM
