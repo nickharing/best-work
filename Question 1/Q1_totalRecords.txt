@@ -1,5 +1,5 @@
-Below is the request and metadata response for Question 1 of the assignment. I queried PKIN data for the entire City limits between Wednesday, December 11, 2019 12:00:00 AM (GMT) and Wednesday, December 11, 2019 12:59:59 AM (GMT). The final record was captured at 12:35:41 AM (GMT). Total records for these events = 2751
-NOTE: The end timestamp is before 12:59:59. This could be because that is the time of the last record or because I did not get a full response. I reached out to CityIQ support to validate, but didn't recieved a reply before submitting.
+Below is the request and metadata response for Question 1 of the assignment. I queried PKIN data for the entire city limits between Wednesday, December 11, 2019 12:00:00 AM (GMT) and Wednesday, December 11, 2019 12:59:59 AM (GMT). Total records for these events = 2751. NOTE: I re-ran the request a week later and got a totalRecords value of 2775. Also, I ran the same GET request for PKOUT and the totalRecords response was 2503 which suggests that more people were coming into the city than were leaving.
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 Python code taken from a Postman API
 
