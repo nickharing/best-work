@@ -1,5 +1,5 @@
 # Get It Done
-I interviewed with PandA in mid-2019 and as part of the process I QA'd some GID data
+I interviewed with PandA (City of San Diego) in mid-2019 and as part of the process I QA'd some GID data
 
 The 2016-2019 GID data (> 40k rows) is generally sound but could be cleaner.
 1. Spatial data indicated that GID may not have an accurate accounting of City boundaries,
